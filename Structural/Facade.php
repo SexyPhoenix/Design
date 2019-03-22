@@ -27,7 +27,8 @@
     		print_r('draw rectangle'.PHP_EOL);
     	}
     }
-
+    
+    //外观类
     class ShapeMaker {
 
     	public $circle;
