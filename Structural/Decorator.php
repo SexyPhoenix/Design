@@ -59,7 +59,11 @@
     $Circle     = new Circle();
     $Rectangle  = new Rectangle();
 
-    $RedShapeDecorator = new RedShapeDecorator($Circle);
-    $RedShapeDecorator->draw();
+    $redCircle  = new RedShapeDecorator(new Circle());
+    $redCircle->draw();
+
+    $rectangleCircle  = new RedShapeDecorator(new Rectangle());
+    $rectangleCircle->draw();
+
 
 ?>
