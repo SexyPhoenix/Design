@@ -22,8 +22,8 @@
 
     	public function display()
     	{
-    		print_r($this->filename.' is Loading...'.PHP_EOL);
-            print_r($this->filename.' display finished'.PHP_EOL);
+    		print_r($this->filename.' is Loading... '.PHP_EOL);
+            print_r($this->filename.' display finished '.PHP_EOL);
     	}
     }
 
